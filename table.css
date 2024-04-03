@@ -1,0 +1,42 @@
+/* CSS untuk styling tabel */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-container {
+    display: flex;
+  }
+  
+  .table-wrapper {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS untuk styling judul */
+  h1 {
+    text-align: center;
+  }
+  
+  .jdl {
+    font-weight: bold;
+  }
+  
+  .member {
+    font-weight: bold;
+  }
+  
